@@ -61,8 +61,8 @@ This module is maintained by LasLabs Inc.
    :target: https://coveralls.io/r/LasLabs/python-oca?branch=master
 .. |Codecov Status| image:: https://codecov.io/gh/laslabs/python-oca/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/LasLabs/python-oca
-.. |Code Climate| image:: https://codeclimate.com/github/laslabs/Python-oca/badges/gpa.svg
-   :target: https://codeclimate.com/github/laslabs/Python-oca
+.. |Code Climate| image:: https://codeclimate.com/github/LasLabs/python-oca/badges/gpa.svg
+   :target: https://codeclimate.com/github/LasLabs/python-oca
 .. |License LGPL-3| image:: https://img.shields.io/badge/license-LGPL--3-blue.svg
    :target: https://www.gnu.org/licenses/lgpl-3.0
    :alt: License: LGPL-3
