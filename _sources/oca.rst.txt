@@ -1,0 +1,29 @@
+oca package
+===========
+
+Subpackages
+-----------
+
+.. toctree::
+
+    oca.tests
+
+Submodules
+----------
+
+oca.helpers module
+------------------
+
+.. automodule:: oca.helpers
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: oca
+    :members:
+    :undoc-members:
+    :show-inheritance:
