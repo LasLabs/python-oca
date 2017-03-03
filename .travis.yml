@@ -1,7 +1,7 @@
 addons:
   apt:
     packages:
-      - expect-dev  # provides unbuffer utility
+      - expect-dev
 
 language: python
 
@@ -14,19 +14,18 @@ virtualenv:
 env:
   global:
     - VERSION="0.1.0"
-    - RELEASE="0.0.1"
-    - PROJECT="Python OCA"
-    - BRANCH_PROD="master"
-    - BRANCH_DOC="gh-pages"
-    - TESTS="0"
-    - LINT_CHECK="0"
-    - DOCS="0"
-    - PYPI="0"
+    - RELEASE="0.1.0"
+    - PROJECT="oca"
+    - ODOO="10.0"
   matrix:
     - TESTS="1"
+    - LINT_CHECK="1"
     - DOCS="1"
 
 install:
+  # Odoo not currently required.
+  # - pip install -r "https://raw.githubusercontent.com/odoo/odoo/${ODOO}/requirements.txt"
+  # - pip install "https://github.com/odoo/odoo/archive/${ODOO}.tar.gz"
   - git clone --depth=1 https://github.com/LasLabs/python-quality-tools.git ${HOME}/python-quality-tools
   - export PATH=${HOME}/python-quality-tools/travis:${PATH}
   - travis_install

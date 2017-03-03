@@ -1,4 +1,4 @@
-|License MIT| | |Build Status| | |Coveralls Status| | |Codecov Status| | |Code Climate|
+|License LGPL-3| | |Build Status| | |Coveralls Status| | |Codecov Status| | |Code Climate|
 
 ==========
 Python OCA
@@ -6,7 +6,7 @@ Python OCA
 
 This library contains helpers for Odoo developers, such as:
 
-* ``api.foreach`` - A replacement for the deprecated ``api.one``
+* ``oca.api.foreach`` - A replacement for the deprecated ``odoo.api.one``
 
 Installation
 ============
@@ -63,6 +63,6 @@ This module is maintained by LasLabs Inc.
    :target: https://codecov.io/gh/LasLabs/python-oca
 .. |Code Climate| image:: https://codeclimate.com/github/laslabs/Python-oca/badges/gpa.svg
    :target: https://codeclimate.com/github/laslabs/Python-oca
-.. |License MIT| image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://opensource.org/licenses/MIT
-   :alt: License: AGPL-3
+.. |License LGPL-3| image:: https://img.shields.io/badge/license-LGPL--3-blue.svg
+   :target: https://www.gnu.org/licenses/lgpl-3.0
+   :alt: License: LGPL-3
