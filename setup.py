@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Copyright 2016-TODAY LasLabs Inc.
-# License MIT (https://opensource.org/licenses/MIT).
+# Copyright 2016-2017 LasLabs Inc.
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from setuptools import Command, setup
 from setuptools import find_packages
@@ -8,9 +8,9 @@ from unittest import TestLoader, TextTestRunner
 
 from os import environ, path
 
-PROJECT = 'oca'
+PROJECT = 'python-oca'
 SHORT_DESC = (
-    'This is a library of helper for Odoo developers.'
+    'This is a library of helpers for Odoo developers.'
 )
 README_FILE = 'README.rst'
 
@@ -18,7 +18,7 @@ CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
+    'License :: OSI Approved :: LGPL-3 License',
     'Programming Language :: Python',
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
@@ -36,7 +36,7 @@ setup_vals = {
     'description': SHORT_DESC,
     'url': 'https://laslabs.github.io/%s' % PROJECT,
     'download_url': 'https://github.com/LasLabs/%s' % PROJECT,
-    'license': 'MIT',
+    'license': 'LGPL-3',
     'classifiers': CLASSIFIERS,
     'version': version,
 }
@@ -88,4 +88,3 @@ if __name__ == "__main__":
         install_requires=install_requires,
         **setup_vals
     )
-
