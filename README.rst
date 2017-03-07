@@ -15,7 +15,7 @@ Install this package into your Odoo environment.
 
 Using Pip:
 
-   pip install oca
+   pip install git+https://github.com/LasLabs/python-oca
 
 Using Git:
 
