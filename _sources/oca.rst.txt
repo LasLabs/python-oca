@@ -11,8 +11,8 @@ Subpackages
 Submodules
 ----------
 
-oca.helpers module
-------------------
+oca\.helpers module
+-------------------
 
 .. automodule:: oca.helpers
     :members:

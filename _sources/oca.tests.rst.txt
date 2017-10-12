@@ -1,19 +1,19 @@
-oca.tests package
-=================
+oca\.tests package
+==================
 
 Submodules
 ----------
 
-oca.tests.common module
------------------------
+oca\.tests\.common module
+-------------------------
 
 .. automodule:: oca.tests.common
     :members:
     :undoc-members:
     :show-inheritance:
 
-oca.tests.test_helpers_foreach module
--------------------------------------
+oca\.tests\.test\_helpers\_foreach module
+-----------------------------------------
 
 .. automodule:: oca.tests.test_helpers_foreach
     :members:
