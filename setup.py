@@ -18,8 +18,11 @@ CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: LGPL-3 License',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 or '
+    'later (LGPLv3+)',
     'Programming Language :: Python',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 2.7',
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
@@ -59,7 +62,7 @@ class FailTestException(Exception):
 
 
 class Tests(Command):
-    ''' Run test & coverage, save reports as XML '''
+    """ Run test & coverage, save reports as XML """
 
     user_options = []  # < For Command API compatibility
 
